@@ -1,0 +1,29 @@
+[package]
+name = "hikaru-print"
+version = "0.7.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrayref = "0.3.6"
+bytemuck = "1.7.2"
+serum_dex = "0.4.0"
+solana-account-decoder = "=1.10.31"
+solana-client = "=1.10.31"
+solana-sdk = "=1.10.31"
+solana-rpc = "=1.10.31"
+solana-program = "=1.10.31"
+solana-runtime = "=1.10.31"
+shellexpand = "2.1.0"
+spl-token = { version = "3.2.0", features = ["no-entrypoint"] }
+spl-token-swap = { version = "2.1.0", features = ["no-entrypoint"] }
+jsonrpc-client-transports = "18.0.0"
+jsonrpc-core-client = "18.0.0"
+jsonrpc-core = "18.0.0"
+tokio = "1.12.0"
+ws = "0.9.1"
+serde = "1.0"
+serde_json = "1.0"
+clap = "2.33.3"
+bit-vec = "0.6"
